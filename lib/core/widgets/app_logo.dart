@@ -6,24 +6,21 @@ class AppLogo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: const [
-        Icon(
-          Icons.business_center_rounded,
-          size: 72,
-          color: AppColors.primary,
+    return Container(
+      width: 130,
+      height: 130,
+      decoration: BoxDecoration(
+        color: AppColors.card,
+        borderRadius: BorderRadius.circular(30),
+        border: Border.all(
+          color: AppColors.border,
         ),
-        SizedBox(height: 12),
-        Text(
-          'NEXORA AI',
-          style: TextStyle(
-            color: AppColors.white,
-            fontWeight: FontWeight.bold,
-            fontSize: 28,
-            letterSpacing: 2,
-          ),
-        ),
-      ],
+      ),
+      child: const Icon(
+        Icons.auto_awesome,
+        size: 70,
+        color: AppColors.primary,
+      ),
     );
   }
 }

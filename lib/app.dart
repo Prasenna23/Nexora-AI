@@ -1,17 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:nexora_ai/app/theme.dart';
-import 'features/splash/splash_screen.dart';
+import 'package:nexora_ai/app/routes/app_router.dart';
 
 class NexoraApp extends StatelessWidget {
   const NexoraApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
       debugShowCheckedModeBanner: false,
-      title: 'Nexora AI',
-      theme: AppTheme.darkTheme,
-      home: const SplashScreen(),
+      routerConfig: appRouter,
     );
   }
 }
