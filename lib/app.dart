@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'core/theme/app_theme.dart';
+import 'package:nexora_ai/app/theme.dart';
 import 'features/splash/splash_screen.dart';
 
 class NexoraApp extends StatelessWidget {
@@ -11,7 +10,7 @@ class NexoraApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Nexora AI',
-      theme: AppTheme.lightTheme,
+      theme: AppTheme.darkTheme,
       home: const SplashScreen(),
     );
   }
