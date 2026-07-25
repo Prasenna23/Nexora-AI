@@ -1,17 +1,29 @@
-# nexora_ai
+# Nexora AI
 
-A new Flutter project.
+An AI-powered multi-agent business operating system built with Flutter, Firebase, and LLM APIs.
 
-## Getting Started
+## Vision
 
-This project is a starting point for a Flutter application.
+Nexora AI is designed to act as an AI workforce for businesses by providing specialized agents for:
 
-A few resources to get you started if this is your first Flutter project:
+- 🧠 CEO Agent
+- 👥 HR Agent
+- 💰 Finance Agent
+- 📄 Document Intelligence Agent
+- 📈 Sales Agent
+- 📣 Marketing Agent
+- 📧 Email Agent
+- ⚙️ Operations Agent
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter
+- Firebase
+- Firestore
+- Firebase Authentication
+- LLM APIs
+- Material 3
+
+## Status
+
+🚧 Under Development
